@@ -118,7 +118,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Actors\SpecialAbilityComponent.cpp" />
     <ClCompile Include="..\Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Actors\AbilitiesInterface.h" />
+    <ClInclude Include="..\..\Actors\SpecialAbilityComponent.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
